@@ -28,4 +28,4 @@ def test_autorization_page(page: Page):
     expect(page.get_by_role("cell", name="@gmail.com")).to_be_visible()
 
 
-
+    #pytest -k test_bugred --headed
